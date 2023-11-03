@@ -23,7 +23,7 @@ void setup() {
   pinMode(RainSensor, INPUT);
   myServo.attach(ServoPin);
 
-  lcd.init();       // initialize the LCD
+  lcd.init();       // initialize the LC
   lcd.backlight();  // Turn on the blacklight
 
   lcd.clear();
